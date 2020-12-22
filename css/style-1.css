@@ -1,0 +1,80 @@
+html,
+body {
+  margin: 0%;
+  overflow-x: hidden;
+}
+
+.navbar {
+  border-bottom: #023e5c 3px solid !important;
+  opacity: 0.8;
+}
+.nav-item a:hover {
+  background-color: darkcyan;
+}
+
+.signin {
+  color: white;
+  font-weight: bold;
+}
+
+.site-title {
+  height: 600px;
+  background: url("../image/1.jpg");
+  background-size: cover;
+  background-position: left top;
+}
+.site-text {
+  padding-top: 100px;
+}
+.site-text h1 {
+  color: white;
+}
+
+:root {
+  --text-gray: #3f4954;
+  --text-light: #686666da;
+  --bg-color: #0f0f0f;
+  --white: #fff;
+  --midnight: #104f55;
+
+  --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+main .recent-blog {
+  background: url("../Assets/honeycomb.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+  width: 100%;
+  background-size: 70%;
+}
+
+main .recent-blog .blog-post {
+  padding-top: 3rem;
+}
+main .blog-post .blog-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: 3rem 2rem;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+main .blog-content .blog-title {
+  padding: 2rem 0;
+}
+.blog-content .btn-blog {
+  background: var(--sky);
+  border: none;
+  border-radius: 2rem;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+  font-family: Livvic;
+  cursor: pointer;
+  outline: none;
+}
+.blog-content span {
+  display: block;
+  font-family: Abel;
+}

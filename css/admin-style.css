@@ -1,0 +1,21 @@
+html,
+body {
+  margin: 0%;
+  overflow-x: hidden;
+}
+
+.navbar {
+  border-bottom: #023e5c 3px solid !important;
+  opacity: 0.8;
+}
+.nav-item a:hover {
+  background-color: darkcyan;
+}
+.sign-in {
+  margin-top: 5rem;
+}
+.sign-in img {
+  height: 150px;
+  width: 150px;
+  margin-top: -70px;
+}

@@ -1,0 +1,50 @@
+.sign-in,
+.sign-up,
+#add_blog {
+  background: url("../Assets/honeycomb.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.sign-in-form,
+.sign-up-form {
+  margin-top: 10rem;
+  border: 2px double black;
+  border-radius: 10px;
+}
+.sign-up-form {
+  margin-top: 1rem;
+}
+
+.sign-in img,
+.sign-up img {
+  height: 100px;
+  width: 100px;
+}
+.sign-up-form input[type="radio"] {
+  margin-right: 10px;
+  margin-left: 0px;
+  transform: scale(1.2);
+}
+.sign-up-form .radio-label {
+  width: 49%;
+  text-align: left;
+}
+.about table {
+  width: 100%!important;
+}
+.about img {
+  height: 40px;
+  width: 40px;
+  border-radius: 10rem;
+  margin: 3px;
+}
+
+.blogs img {
+  height: 100px;
+  width: 100px;
+}
+.required{
+  color: red;
+}
+
